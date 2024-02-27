@@ -1,0 +1,53 @@
+.hostlayout--container {
+  margin-left: 40px;
+}
+
+.hostlayout--navbar {
+  margin-bottom: 40px;
+}
+
+.hostlayout--navbar > a {
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+/* Host Vans */
+.hostvans--container {
+  font-family: Inter;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.hostvans--container .hostvans--title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 34px;
+}
+
+.hostvans--container .van--container {
+  background-color: white;
+  border-radius: 10px;
+  width: 85%;
+  display: flex;
+  padding: 10px 10px;
+}
+
+.hostvans--container .van--container {
+  cursor: pointer;
+}
+
+.hostvans--container .image--container {
+  width: 80px;
+}
+
+.hostvans--container .van--information {
+  margin-left: 10px;
+}
+
+.hostvans--container .van--information .van--name {
+  font-weight: 1000;
+  font-size: 20px;
+}

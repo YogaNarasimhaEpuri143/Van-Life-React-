@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  color: #161616;
+  font-family: "Inter";
+  font-style: normal;
+}
+
+.vans--link {
+  margin-left: 20px;
+}
+
+.vandetail--outer--container {
+  display: grid;
+  grid-template-columns: 0.6fr 1fr;
+  margin-top: 20px;
+}
+
+.van--image--container {
+  overflow: hidden;
+  padding: 0px 15px;
+}
+
+.van--image--container > img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.van--information {
+  padding-left: 5px;
+}
+
+.van--information .van--type {
+  display: inline-block;
+  color: #ffead0;
+  padding: 5px 13px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.van--information .van--name {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 34px;
+}
+
+.van--information .van--price {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 44px;
+}
+
+.van--information .van--price > span {
+  color: #585757;
+}
+
+.van--information .van--description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 20px;
+  max-width: 90%;
+  text-align: justify;
+}
+
+.van--information .rent--button {
+  display: flex;
+  justify-content: lfe;
+}
+
+.van--information .rent--button div {
+  background-color: #ff8c38;
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  padding: 5px 20px;
+  margin-right: 50px;
+  border-radius: 10px;
+}
+
+.button--simple {
+  background-color: #e17654;
+}
+.button--luxury {
+  background-color: #161616;
+}
+.button--rugged {
+  background-color: #115e59;
+}

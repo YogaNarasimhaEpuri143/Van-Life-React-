@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  color: #161616;
+}
+
+.vans--search--filters {
+  margin-bottom: 30px;
+}
+
+/* css specificity: 11 */
+.vans--search--filters > a {
+  text-decoration: none;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding: 8px 18px;
+  font-weight: 500;
+  border: none;
+  background-color: #ffead0;
+  color: #4d4d4d;
+  transition: 200ms all cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* css specificity: 20 */
+.van-type:hover {
+  color: #ffead0;
+}
+
+/* css specificity: 20 */
+.van-type:focus {
+  outline: none;
+}
+
+/* css specificity: 20 */
+.van-type.selected {
+  color: #ffead0;
+}
+
+/* css specificity: 30 */
+.van-type.simple:hover,
+.van-type.simple.selected {
+  background-color: #e17654;
+}
+
+.van-type.rugged:hover,
+.van-type.rugged.selected {
+  background-color: #115e59;
+}
+
+/* .van-type.rugged:hover,
+.vans--search--filters .my-link {
+  background-color: #115e59;
+} */
+
+.van-type.luxury:hover,
+.van-type.luxury.selected {
+  background-color: #161616;
+}
+
+.vans--search--filters .clear--filter {
+  display: inline-block;
+  margin-left: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #4d4d4d;
+}
+
+.vans--outer--container {
+  display: block;
+  background-color: #fff7ed;
+  min-height: 80vh;
+}
+
+.vans--container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+}
+
+.van--container {
+  width: 100%;
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+.image--container {
+  width: 95%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image--container > img {
+  width: 100%;
+}
+
+.vans--main--title {
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.van--info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.van--pricing {
+  margin-right: 20px;
+}
+
+.van--details,
+.van--pricing > p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  color: #161616;
+}
+
+.van--details > button {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  color: #ffead0;
+}
+
+.button--simple {
+  background-color: #e17654;
+}
+.button--luxury {
+  background-color: #161616;
+}
+.button--rugged {
+  background-color: #115e59;
+  color: red;
+  cursor: pointer;
+}
+
+.van--pricing > span {
+  color: #484848;
+  margin: 0px;
+  position: relative;
+  bottom: 8px;
+}
